@@ -1,0 +1,86 @@
+@media(min-width: 1024px){
+.containerp {
+width: 100vw;
+height: 120vh;
+background:url("imagens/fundo3.png");
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 0px;
+background-repeat: no-repeat;
+}
+.box {
+width: 300px;
+height: 600px;
+background: none;
+}
+body {
+margin: 0px;
+background:url("imagens/fundobody.png");
+font-family: David Libre;
+}
+.texto {
+color : white;
+}
+.imagem{
+	border-radius: 50%;
+	width: 100px;
+	margin-top: 50px;
+}
+.botao {
+width: 200px;
+background: white;
+}
+.botao:hover{
+background: black;
+color:white;
+}
+li{
+	list-style-type: none;
+    list-style: none;
+}
+.icone{
+	font-size:100px;
+}
+}
+@media(max-width: 1024px){
+.box {
+width: 700px;
+height: 1000px;
+background: url("imagens/fundocelular.png");
+float: left;
+padding-left:200px;
+}
+body {
+margin: 0px;
+background: url("imagens/fundocelular.png");
+font-family: David Libre;
+}
+.texto {
+color : white;
+font-size: 200px: 
+}
+.imagem{
+	border-radius: 50%;
+	width: 300px;
+	margin-top: 50px;
+}
+.botao {
+width: 600px;
+background: white;
+}
+.botao:hover{
+background: black;
+color:white;
+}
+li{
+	list-style-type: none;
+    list-style: none;
+}
+.icone{
+	font-size:150px;
+}
+
+
+}
