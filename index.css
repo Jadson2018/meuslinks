@@ -2,7 +2,7 @@
 .containerp {
 width: 100vw;
 height: 120vh;
-background:url("imagens/fundo3.png");
+background:url("fundo3.png");
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -17,7 +17,7 @@ background: none;
 }
 body {
 margin: 0px;
-background:url("imagens/fundobody.png");
+background:url("fundobody.png");
 font-family: David Libre;
 }
 .texto {
@@ -48,13 +48,13 @@ li{
 .box {
 width: 700px;
 height: 1000px;
-background: url("imagens/fundocelular.png");
+background: url("fundocelular.png");
 float: left;
 padding-left:200px;
 }
 body {
 margin: 0px;
-background: url("imagens/fundocelular.png");
+background: url("fundocelular.png");
 font-family: David Libre;
 }
 .texto {
